@@ -41,7 +41,7 @@
 		6CC6EAF219B9C8FA003646E3 /* main.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
 		6CC6EAF419B9EB0B003646E3 /* NSText+CopyPlus.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSText+CopyPlus.h"; sourceTree = "<group>"; };
 		6CC6EAF519B9EB0B003646E3 /* NSText+CopyPlus.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSText+CopyPlus.m"; sourceTree = "<group>"; };
-		6CC6EAF719B9F005003646E3 /* Readme.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; name = Readme.md; path = "rtl-override/Readme.md"; sourceTree = "<group>"; };
+		6CC6EAF719B9F005003646E3 /* Readme.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = Readme.md; sourceTree = "<group>"; };
 		6CC6EAF919B9F098003646E3 /* rtl-override.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = "rtl-override.playground"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
