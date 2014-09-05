@@ -7,11 +7,14 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		6CC6EAD019B9B74C003646E3 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 6CC6EACF19B9B74C003646E3 /* main.m */; };
-		6CC6EAD319B9B74C003646E3 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 6CC6EAD219B9B74C003646E3 /* AppDelegate.m */; };
 		6CC6EAD519B9B74C003646E3 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6CC6EAD419B9B74C003646E3 /* Images.xcassets */; };
 		6CC6EAD819B9B74C003646E3 /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = 6CC6EAD619B9B74C003646E3 /* MainMenu.xib */; };
 		6CC6EAE419B9B74C003646E3 /* rtl_overrideTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 6CC6EAE319B9B74C003646E3 /* rtl_overrideTests.m */; };
+		6CC6EAEF19B9B7F3003646E3 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6CC6EAEE19B9B7F3003646E3 /* AppDelegate.swift */; };
+		6CC6EAF119B9BCE8003646E3 /* StringToUTF8HexFormatter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6CC6EAF019B9BCE8003646E3 /* StringToUTF8HexFormatter.swift */; };
+		6CC6EAF319B9C8FA003646E3 /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6CC6EAF219B9C8FA003646E3 /* main.swift */; };
+		6CC6EAF619B9EB0B003646E3 /* NSText+CopyPlus.m in Sources */ = {isa = PBXBuildFile; fileRef = 6CC6EAF519B9EB0B003646E3 /* NSText+CopyPlus.m */; };
+		6CC6EAF819B9F005003646E3 /* Readme.md in Sources */ = {isa = PBXBuildFile; fileRef = 6CC6EAF719B9F005003646E3 /* Readme.md */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -27,14 +30,19 @@
 /* Begin PBXFileReference section */
 		6CC6EACA19B9B74C003646E3 /* rtl-override.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "rtl-override.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		6CC6EACE19B9B74C003646E3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		6CC6EACF19B9B74C003646E3 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		6CC6EAD119B9B74C003646E3 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
-		6CC6EAD219B9B74C003646E3 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		6CC6EAD419B9B74C003646E3 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		6CC6EAD719B9B74C003646E3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/MainMenu.xib; sourceTree = "<group>"; };
 		6CC6EADD19B9B74C003646E3 /* rtl-overrideTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "rtl-overrideTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		6CC6EAE219B9B74C003646E3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		6CC6EAE319B9B74C003646E3 /* rtl_overrideTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = rtl_overrideTests.m; sourceTree = "<group>"; };
+		6CC6EAED19B9B7F3003646E3 /* rtl-override-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "rtl-override-Bridging-Header.h"; sourceTree = "<group>"; };
+		6CC6EAEE19B9B7F3003646E3 /* AppDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		6CC6EAF019B9BCE8003646E3 /* StringToUTF8HexFormatter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StringToUTF8HexFormatter.swift; sourceTree = "<group>"; };
+		6CC6EAF219B9C8FA003646E3 /* main.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
+		6CC6EAF419B9EB0B003646E3 /* NSText+CopyPlus.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSText+CopyPlus.h"; sourceTree = "<group>"; };
+		6CC6EAF519B9EB0B003646E3 /* NSText+CopyPlus.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSText+CopyPlus.m"; sourceTree = "<group>"; };
+		6CC6EAF719B9F005003646E3 /* Readme.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; name = Readme.md; path = "rtl-override/Readme.md"; sourceTree = "<group>"; };
+		6CC6EAF919B9F098003646E3 /* rtl-override.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = "rtl-override.playground"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +66,8 @@
 		6CC6EAC119B9B74C003646E3 = {
 			isa = PBXGroup;
 			children = (
+				6CC6EAF719B9F005003646E3 /* Readme.md */,
+				6CC6EAF919B9F098003646E3 /* rtl-override.playground */,
 				6CC6EACC19B9B74C003646E3 /* rtl-override */,
 				6CC6EAE019B9B74C003646E3 /* rtl-overrideTests */,
 				6CC6EACB19B9B74C003646E3 /* Products */,
@@ -76,11 +86,14 @@
 		6CC6EACC19B9B74C003646E3 /* rtl-override */ = {
 			isa = PBXGroup;
 			children = (
-				6CC6EAD119B9B74C003646E3 /* AppDelegate.h */,
-				6CC6EAD219B9B74C003646E3 /* AppDelegate.m */,
+				6CC6EAEE19B9B7F3003646E3 /* AppDelegate.swift */,
+				6CC6EAF019B9BCE8003646E3 /* StringToUTF8HexFormatter.swift */,
+				6CC6EAF419B9EB0B003646E3 /* NSText+CopyPlus.h */,
+				6CC6EAF519B9EB0B003646E3 /* NSText+CopyPlus.m */,
 				6CC6EAD419B9B74C003646E3 /* Images.xcassets */,
 				6CC6EAD619B9B74C003646E3 /* MainMenu.xib */,
 				6CC6EACD19B9B74C003646E3 /* Supporting Files */,
+				6CC6EAED19B9B7F3003646E3 /* rtl-override-Bridging-Header.h */,
 			);
 			path = "rtl-override";
 			sourceTree = "<group>";
@@ -89,7 +102,7 @@
 			isa = PBXGroup;
 			children = (
 				6CC6EACE19B9B74C003646E3 /* Info.plist */,
-				6CC6EACF19B9B74C003646E3 /* main.m */,
+				6CC6EAF219B9C8FA003646E3 /* main.swift */,
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
@@ -210,8 +223,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				6CC6EAD319B9B74C003646E3 /* AppDelegate.m in Sources */,
-				6CC6EAD019B9B74C003646E3 /* main.m in Sources */,
+				6CC6EAF819B9F005003646E3 /* Readme.md in Sources */,
+				6CC6EAF619B9EB0B003646E3 /* NSText+CopyPlus.m in Sources */,
+				6CC6EAEF19B9B7F3003646E3 /* AppDelegate.swift in Sources */,
+				6CC6EAF319B9C8FA003646E3 /* main.swift in Sources */,
+				6CC6EAF119B9BCE8003646E3 /* StringToUTF8HexFormatter.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -325,10 +341,13 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				COMBINE_HIDPI_IMAGES = YES;
 				INFOPLIST_FILE = "rtl-override/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "rtl-override/rtl-override-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 			};
 			name = Debug;
 		};
@@ -336,10 +355,12 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				COMBINE_HIDPI_IMAGES = YES;
 				INFOPLIST_FILE = "rtl-override/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "rtl-override/rtl-override-Bridging-Header.h";
 			};
 			name = Release;
 		};
@@ -398,6 +419,7 @@
 				6CC6EAE919B9B74C003646E3 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		6CC6EAEA19B9B74C003646E3 /* Build configuration list for PBXNativeTarget "rtl-overrideTests" */ = {
 			isa = XCConfigurationList;
@@ -406,6 +428,7 @@
 				6CC6EAEC19B9B74C003646E3 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
