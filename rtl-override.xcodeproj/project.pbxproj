@@ -1,0 +1,413 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		6CC6EAD019B9B74C003646E3 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 6CC6EACF19B9B74C003646E3 /* main.m */; };
+		6CC6EAD319B9B74C003646E3 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 6CC6EAD219B9B74C003646E3 /* AppDelegate.m */; };
+		6CC6EAD519B9B74C003646E3 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6CC6EAD419B9B74C003646E3 /* Images.xcassets */; };
+		6CC6EAD819B9B74C003646E3 /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = 6CC6EAD619B9B74C003646E3 /* MainMenu.xib */; };
+		6CC6EAE419B9B74C003646E3 /* rtl_overrideTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 6CC6EAE319B9B74C003646E3 /* rtl_overrideTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		6CC6EADE19B9B74C003646E3 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 6CC6EAC219B9B74C003646E3 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 6CC6EAC919B9B74C003646E3;
+			remoteInfo = "rtl-override";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		6CC6EACA19B9B74C003646E3 /* rtl-override.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "rtl-override.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		6CC6EACE19B9B74C003646E3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6CC6EACF19B9B74C003646E3 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		6CC6EAD119B9B74C003646E3 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		6CC6EAD219B9B74C003646E3 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		6CC6EAD419B9B74C003646E3 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		6CC6EAD719B9B74C003646E3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/MainMenu.xib; sourceTree = "<group>"; };
+		6CC6EADD19B9B74C003646E3 /* rtl-overrideTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "rtl-overrideTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		6CC6EAE219B9B74C003646E3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6CC6EAE319B9B74C003646E3 /* rtl_overrideTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = rtl_overrideTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		6CC6EAC719B9B74C003646E3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6CC6EADA19B9B74C003646E3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		6CC6EAC119B9B74C003646E3 = {
+			isa = PBXGroup;
+			children = (
+				6CC6EACC19B9B74C003646E3 /* rtl-override */,
+				6CC6EAE019B9B74C003646E3 /* rtl-overrideTests */,
+				6CC6EACB19B9B74C003646E3 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		6CC6EACB19B9B74C003646E3 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				6CC6EACA19B9B74C003646E3 /* rtl-override.app */,
+				6CC6EADD19B9B74C003646E3 /* rtl-overrideTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		6CC6EACC19B9B74C003646E3 /* rtl-override */ = {
+			isa = PBXGroup;
+			children = (
+				6CC6EAD119B9B74C003646E3 /* AppDelegate.h */,
+				6CC6EAD219B9B74C003646E3 /* AppDelegate.m */,
+				6CC6EAD419B9B74C003646E3 /* Images.xcassets */,
+				6CC6EAD619B9B74C003646E3 /* MainMenu.xib */,
+				6CC6EACD19B9B74C003646E3 /* Supporting Files */,
+			);
+			path = "rtl-override";
+			sourceTree = "<group>";
+		};
+		6CC6EACD19B9B74C003646E3 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				6CC6EACE19B9B74C003646E3 /* Info.plist */,
+				6CC6EACF19B9B74C003646E3 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		6CC6EAE019B9B74C003646E3 /* rtl-overrideTests */ = {
+			isa = PBXGroup;
+			children = (
+				6CC6EAE319B9B74C003646E3 /* rtl_overrideTests.m */,
+				6CC6EAE119B9B74C003646E3 /* Supporting Files */,
+			);
+			path = "rtl-overrideTests";
+			sourceTree = "<group>";
+		};
+		6CC6EAE119B9B74C003646E3 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				6CC6EAE219B9B74C003646E3 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		6CC6EAC919B9B74C003646E3 /* rtl-override */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6CC6EAE719B9B74C003646E3 /* Build configuration list for PBXNativeTarget "rtl-override" */;
+			buildPhases = (
+				6CC6EAC619B9B74C003646E3 /* Sources */,
+				6CC6EAC719B9B74C003646E3 /* Frameworks */,
+				6CC6EAC819B9B74C003646E3 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "rtl-override";
+			productName = "rtl-override";
+			productReference = 6CC6EACA19B9B74C003646E3 /* rtl-override.app */;
+			productType = "com.apple.product-type.application";
+		};
+		6CC6EADC19B9B74C003646E3 /* rtl-overrideTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6CC6EAEA19B9B74C003646E3 /* Build configuration list for PBXNativeTarget "rtl-overrideTests" */;
+			buildPhases = (
+				6CC6EAD919B9B74C003646E3 /* Sources */,
+				6CC6EADA19B9B74C003646E3 /* Frameworks */,
+				6CC6EADB19B9B74C003646E3 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				6CC6EADF19B9B74C003646E3 /* PBXTargetDependency */,
+			);
+			name = "rtl-overrideTests";
+			productName = "rtl-overrideTests";
+			productReference = 6CC6EADD19B9B74C003646E3 /* rtl-overrideTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		6CC6EAC219B9B74C003646E3 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0600;
+				ORGANIZATIONNAME = earthlingsoft;
+				TargetAttributes = {
+					6CC6EAC919B9B74C003646E3 = {
+						CreatedOnToolsVersion = 6.0;
+					};
+					6CC6EADC19B9B74C003646E3 = {
+						CreatedOnToolsVersion = 6.0;
+						TestTargetID = 6CC6EAC919B9B74C003646E3;
+					};
+				};
+			};
+			buildConfigurationList = 6CC6EAC519B9B74C003646E3 /* Build configuration list for PBXProject "rtl-override" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 6CC6EAC119B9B74C003646E3;
+			productRefGroup = 6CC6EACB19B9B74C003646E3 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				6CC6EAC919B9B74C003646E3 /* rtl-override */,
+				6CC6EADC19B9B74C003646E3 /* rtl-overrideTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		6CC6EAC819B9B74C003646E3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6CC6EAD519B9B74C003646E3 /* Images.xcassets in Resources */,
+				6CC6EAD819B9B74C003646E3 /* MainMenu.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6CC6EADB19B9B74C003646E3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		6CC6EAC619B9B74C003646E3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6CC6EAD319B9B74C003646E3 /* AppDelegate.m in Sources */,
+				6CC6EAD019B9B74C003646E3 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6CC6EAD919B9B74C003646E3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6CC6EAE419B9B74C003646E3 /* rtl_overrideTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		6CC6EADF19B9B74C003646E3 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 6CC6EAC919B9B74C003646E3 /* rtl-override */;
+			targetProxy = 6CC6EADE19B9B74C003646E3 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		6CC6EAD619B9B74C003646E3 /* MainMenu.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				6CC6EAD719B9B74C003646E3 /* Base */,
+			);
+			name = MainMenu.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		6CC6EAE519B9B74C003646E3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.9;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		6CC6EAE619B9B74C003646E3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.9;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		6CC6EAE819B9B74C003646E3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = "rtl-override/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		6CC6EAE919B9B74C003646E3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = "rtl-override/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		6CC6EAEB19B9B74C003646E3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				COMBINE_HIDPI_IMAGES = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "rtl-overrideTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/rtl-override.app/Contents/MacOS/rtl-override";
+			};
+			name = Debug;
+		};
+		6CC6EAEC19B9B74C003646E3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				COMBINE_HIDPI_IMAGES = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "rtl-overrideTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/rtl-override.app/Contents/MacOS/rtl-override";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		6CC6EAC519B9B74C003646E3 /* Build configuration list for PBXProject "rtl-override" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6CC6EAE519B9B74C003646E3 /* Debug */,
+				6CC6EAE619B9B74C003646E3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6CC6EAE719B9B74C003646E3 /* Build configuration list for PBXNativeTarget "rtl-override" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6CC6EAE819B9B74C003646E3 /* Debug */,
+				6CC6EAE919B9B74C003646E3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		6CC6EAEA19B9B74C003646E3 /* Build configuration list for PBXNativeTarget "rtl-overrideTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6CC6EAEB19B9B74C003646E3 /* Debug */,
+				6CC6EAEC19B9B74C003646E3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 6CC6EAC219B9B74C003646E3 /* Project object */;
+}
